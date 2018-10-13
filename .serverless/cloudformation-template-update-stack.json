@@ -147,7 +147,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/serverless/dev/1539417390065-2018-10-13T07:56:30.065Z/serverless.zip"
+          "S3Key": "serverless/serverless/dev/1539422717430-2018-10-13T09:25:17.430Z/serverless.zip"
         },
         "FunctionName": "serverless-dev-app",
         "Handler": "index.handler",
@@ -171,14 +171,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "AppLambdaVersionksmekPSYoB3ZpxhQwUHyrmPgui0ipwbdXZLL4uW2p4": {
+    "AppLambdaVersion2JEDBLgBvsHgqCfvWn2eZXsddSso99ptncFWyCKv84": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "AppLambdaFunction"
         },
-        "CodeSha256": "2Nxxms0poSgTtWeRFt3BHPoi9rz0FWmMiERE2Bf2AIg="
+        "CodeSha256": "W5CyhRNaSownbs7lcVcZp91IqPt96hiFmdSbvDMPveA="
       }
     },
     "GetUserLambdaFunction": {
@@ -188,7 +188,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/serverless/dev/1539417390065-2018-10-13T07:56:30.065Z/serverless.zip"
+          "S3Key": "serverless/serverless/dev/1539422717430-2018-10-13T09:25:17.430Z/serverless.zip"
         },
         "FunctionName": "serverless-dev-getUser",
         "Handler": "index.handler",
@@ -212,14 +212,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "GetUserLambdaVersion1LR5XrhdsO3uiz8zGyQUsu74hyYfUq0YIGmbTULQ1o": {
+    "GetUserLambdaVersionbyQNxrJYtKx2MyeePYs4OT2M8MN0ABgIt7sIEIUVrlQ": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetUserLambdaFunction"
         },
-        "CodeSha256": "2Nxxms0poSgTtWeRFt3BHPoi9rz0FWmMiERE2Bf2AIg="
+        "CodeSha256": "W5CyhRNaSownbs7lcVcZp91IqPt96hiFmdSbvDMPveA="
       }
     },
     "CreateUserLambdaFunction": {
@@ -229,7 +229,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/serverless/dev/1539417390065-2018-10-13T07:56:30.065Z/serverless.zip"
+          "S3Key": "serverless/serverless/dev/1539422717430-2018-10-13T09:25:17.430Z/serverless.zip"
         },
         "FunctionName": "serverless-dev-createUser",
         "Handler": "index.handler",
@@ -253,14 +253,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateUserLambdaVersion050CmopZj7K9rOFfjSebm3FIAzlxXzeP73dH0SPjyI": {
+    "CreateUserLambdaVersiontmKaVl2fgpObyDcb3HuEnPIfgrjrDLMFClcixeiVysU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateUserLambdaFunction"
         },
-        "CodeSha256": "2Nxxms0poSgTtWeRFt3BHPoi9rz0FWmMiERE2Bf2AIg="
+        "CodeSha256": "W5CyhRNaSownbs7lcVcZp91IqPt96hiFmdSbvDMPveA="
       }
     },
     "CreateTaskLambdaFunction": {
@@ -270,7 +270,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/serverless/dev/1539417390065-2018-10-13T07:56:30.065Z/serverless.zip"
+          "S3Key": "serverless/serverless/dev/1539422717430-2018-10-13T09:25:17.430Z/serverless.zip"
         },
         "FunctionName": "serverless-dev-createTask",
         "Handler": "index.handler",
@@ -294,14 +294,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateTaskLambdaVersion2ALK7kEHgIVl9zv22Bd6MFakvQSGvtBsKoyLAQVg5TU": {
+    "CreateTaskLambdaVersion0GRGQwtxYiPO2CAej3Pk8CFJnsVFRQdGmopu6ADk": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateTaskLambdaFunction"
         },
-        "CodeSha256": "2Nxxms0poSgTtWeRFt3BHPoi9rz0FWmMiERE2Bf2AIg="
+        "CodeSha256": "W5CyhRNaSownbs7lcVcZp91IqPt96hiFmdSbvDMPveA="
       }
     },
     "ApiGatewayRestApi": {
@@ -626,7 +626,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1539417390892": {
+    "ApiGatewayDeployment1539422717841": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -862,25 +862,25 @@
     "AppLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "AppLambdaVersionksmekPSYoB3ZpxhQwUHyrmPgui0ipwbdXZLL4uW2p4"
+        "Ref": "AppLambdaVersion2JEDBLgBvsHgqCfvWn2eZXsddSso99ptncFWyCKv84"
       }
     },
     "GetUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetUserLambdaVersion1LR5XrhdsO3uiz8zGyQUsu74hyYfUq0YIGmbTULQ1o"
+        "Ref": "GetUserLambdaVersionbyQNxrJYtKx2MyeePYs4OT2M8MN0ABgIt7sIEIUVrlQ"
       }
     },
     "CreateUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateUserLambdaVersion050CmopZj7K9rOFfjSebm3FIAzlxXzeP73dH0SPjyI"
+        "Ref": "CreateUserLambdaVersiontmKaVl2fgpObyDcb3HuEnPIfgrjrDLMFClcixeiVysU"
       }
     },
     "CreateTaskLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateTaskLambdaVersion2ALK7kEHgIVl9zv22Bd6MFakvQSGvtBsKoyLAQVg5TU"
+        "Ref": "CreateTaskLambdaVersion0GRGQwtxYiPO2CAej3Pk8CFJnsVFRQdGmopu6ADk"
       }
     },
     "ServiceEndpoint": {
