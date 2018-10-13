@@ -84,4 +84,26 @@ app.get('/todo/api/v1.0/tasks/:taskId', (req, res)=> {
 })
 
 
+//DELETE METHOD
+//Delete single task
+
+app.delete('/todo/api/v1.0/tasks/:taskId', (req, res)=> {
+  const params = {
+    TableName: USERS_TABLE,
+    Key: {
+      id: req.params.taskId,
+    },
+  }
+  dynamoDb.delete(params , (error , result)=>{
+    if(error){
+      res.status(400).json({ error: 'Could not delete task' });
+    }else{
+      res.status(200).json({result : "task has been deleted"})
+    }
+  })
+})
+
+
+
+
 module.exports.handler = serverless(app);
